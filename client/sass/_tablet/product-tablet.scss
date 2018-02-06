@@ -1,0 +1,26 @@
+.product__wrapper {
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.product__text {
+    width: 100%;
+    padding-top: 30px;
+}
+
+.product__pack {
+    width: 100%;
+}
+
+.product__button {
+    margin-bottom: 60px;
+}
+
+.product__image {
+    width: 100%;
+}
+
+.product__image > div {
+    width: 50%;
+}

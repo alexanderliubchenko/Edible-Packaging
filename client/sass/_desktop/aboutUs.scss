@@ -1,0 +1,127 @@
+.about-us {
+    background: #A8A8A8;
+}
+
+.about-us__text {
+    text-align: center;
+    background: #F5F5F5;
+}
+
+.about-us__text h5 {
+    font-size: 30px;
+    font-weight: lighter;
+    color: #111;
+    padding-top: 50px;
+}
+
+.about-us__text p {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: lighter;
+    color: #111;
+    margin-top: 10px;
+    padding-bottom: 50px;
+}
+
+.about-us__wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+}
+
+.about-us__person {
+    width: calc(100% / 3);
+    height: 600px;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.about-us__person:nth-child(1) {
+    background: url('../../img/george-dark.jpg') no-repeat;
+    background-position: top center;
+    background-size: cover;
+    &:hover {
+        background: url('../../img/george.jpg') no-repeat;
+        background-position: top center;
+        background-size: cover;
+        width: 200%;
+        & .about-us__info {
+            opacity: 1;
+            transform: translateX(20px);
+            transition-duration: 0.3s;
+            transition-timing-function: ease;
+            transition-delay: 0.5s;
+        }
+    }
+}
+
+.about-us__person:nth-child(2) {
+    background: url('../../img/daphni-dark.jpg') no-repeat;
+    background-position: top center;
+    background-size: cover;
+    &:hover {
+        background: url('../../img/daphni.jpg') no-repeat;
+        background-position: top center;
+        background-size: cover;
+        width: 200%;
+        & .about-us__info {
+            opacity: 1;
+            transform: translateX(20px);
+            transition-duration: 0.3s;
+            transition-timing-function: ease;
+            transition-delay: 0.5s;
+        }
+    }
+}
+
+.about-us__person:nth-child(3) {
+    background: url('../../img/amanda-dark.jpg') no-repeat;
+    background-position: top center;
+    background-size: cover;
+    &:hover {
+        background: url('../../img/amanda.jpg') no-repeat;
+        background-position: top center;
+        background-size: cover;
+        width: 200%;
+        & .about-us__info {
+            opacity: 1;
+            transform: translateX(20px);
+            transition-duration: 0.3s;
+            transition-timing-function: ease;
+            transition-delay: 0.5s;
+        }
+    }
+}
+
+.about-us__info {
+    position: absolute;
+    width: 250px;
+    top: 100px;
+    opacity: 0;
+}
+
+.about-us__info h6 {
+    font-size: 30px;
+    color: #E8530E;
+    font-weight: lighter;
+    padding-bottom: 10px;
+}
+
+.about-us__info span {
+    font-size: 18px;
+    color: #222;
+    border-bottom: 1px solid #222;
+}
+
+.about-us__info p {
+    font-weight: lighter;
+    font-size: 13px;
+    color: #222;
+    padding-top: 10px;
+}
+
+.about-us__tabletmobile {
+    display: none;
+}

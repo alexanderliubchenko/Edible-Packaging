@@ -1,0 +1,39 @@
+@import "_global/global-styles.scss";
+
+@import "_desktop/page-header.scss";
+@import "_desktop/home.scss";
+@import "_desktop/product.scss";
+@import "_desktop/technology.scss";
+@import "_desktop/aboutUs.scss";
+@import "_desktop/page-footer.scss";
+@import "_desktop/page-video.scss";
+
+@media screen and (max-width: 1199px) {
+    .container {
+        max-width: 768px;
+    }
+    
+    @import "_tablet/page-header-tablet.scss";
+    @import "_tablet/home-tablet.scss";
+    @import "_tablet/product-tablet.scss";
+    @import "_tablet/technology-tablet.scss";
+    @import "_tablet/aboutUs-tablet.scss";
+    @import "_tablet/page-footer-tablet.scss";
+}
+
+@media screen and (max-width: 767px) {
+    .empty {
+        display: block;
+    }
+    
+    .container {
+        max-width: 360px;
+    }
+    
+    @import "_mobile/page-header-mobile.scss";
+    @import "_mobile/home-mobile.scss";
+    @import "_mobile/product-mobile.scss";
+    @import "_mobile/technology-mobile.scss";
+    @import "_mobile/aboutUs-mobile.scss";
+    @import "_mobile/page-footer-mobile.scss";
+}

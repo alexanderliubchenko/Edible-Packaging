@@ -1,0 +1,39 @@
+.page-header {
+    background: #65B32E;
+}
+
+.page-header__mobile {
+    display: none;
+    width: 80px;
+    height: 60px;
+    text-align: center;
+    font-size: 24px;
+    line-height: 60px;
+    margin-left: calc(100% - 80px);
+    color: #65B32E;
+}
+
+.page-header__pack {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.page-header__pack li a {
+    display: block;
+    font-size: 13px;
+    font-weight: lighter;
+    padding: 10px 20px;
+    margin: 13px 0;
+    color: #fff;
+    background: url('../img/activelink.png') no-repeat;
+    background-size: 0% 0%;
+    background-position: center;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+}
+
+.page-header__pack li a:hover {
+    background-size: 100% 100%;
+    color: #65B32E;
+}

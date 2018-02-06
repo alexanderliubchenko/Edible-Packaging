@@ -1,0 +1,47 @@
+.about-us {
+    background: #fff;
+    padding-bottom: 50px;
+}
+
+.about-us__text {
+    padding: 0 20px;
+    background: #fff;
+}
+
+.about-us__wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.about-us__person {
+    display: none;
+}
+
+.about-us__tabletmobile {
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.about-us__tabletmobile h6 {
+    font-size: 30px;
+    font-weight: lighter;
+    color: #E9530E;
+    margin-bottom: 5px;
+}
+
+.about-us__tabletmobile span {
+    font-size: 20px;
+    font-weight: lighter;
+    color: #111;
+    border-bottom: 1px solid #111;
+}
+
+.about-us__tabletmobile p {
+    font-size: 14px;
+    font-weight: lighter;
+    color: #111;
+    line-height: 20px;
+    margin-top: 10px;
+}

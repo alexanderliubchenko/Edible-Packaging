@@ -1,0 +1,38 @@
+.page-footer {
+    padding-top: 0px;
+}
+
+.page-footer__wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.page-footer__pack {
+    width: 100%;
+    padding-bottom: 60px;
+}
+
+.page-footer__pack div h2 {
+    color: #555;
+    border-bottom: 1px solid #999;
+}
+
+.page-footer__social {
+    display: flex;
+    justify-content: space-around;
+}
+
+.page-footer__social a {
+    padding: 10px 30px;
+    line-height: 20px;
+}
+
+.page-footer__social a:hover {
+    &::before {
+        width: 0px;
+    }
+}
+
+.page-footer__author {
+    padding: 60px 0 10px 0;
+}

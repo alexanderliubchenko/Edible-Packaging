@@ -1,0 +1,30 @@
+.page-footer__social {
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.page-footer__pack div h2 {
+    letter-spacing: 1px;
+}
+
+.page-footer__pack div p {
+    letter-spacing: 1px;
+}
+
+.page-footer__social a {
+    display: block;
+    width: 100%;
+    padding: 30px 0;
+    text-align: center;
+    margin: 5px 0;
+    line-height: 0px;
+    &::before {
+        content: "";
+        display: none;
+        height: 0px;
+        margin-bottom: 0px;
+        margin-right: 0px;
+        transition-duration: 0.5s;
+        transition-timing-function: ease;
+    }
+}
