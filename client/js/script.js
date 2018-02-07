@@ -20,6 +20,7 @@ $(document).ready(function() {
     
     $(window).resize(function() {
         var $windowWidth = $(window).width();
+        
         if ($windowWidth > 767) {
             $(".page-header__nav").removeClass("popup-nav");
             $("#page-header__icon").removeClass("fa-times").addClass("fa-bars");

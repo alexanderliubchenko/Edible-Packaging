@@ -7,6 +7,8 @@
 @import "_desktop/aboutUs.scss";
 @import "_desktop/page-footer.scss";
 @import "_desktop/page-video.scss";
+@import "_desktop/shop-header.scss";
+@import "_desktop/shop-goods.scss";
 
 @media screen and (max-width: 1199px) {
     .container {
@@ -19,6 +21,8 @@
     @import "_tablet/technology-tablet.scss";
     @import "_tablet/aboutUs-tablet.scss";
     @import "_tablet/page-footer-tablet.scss";
+    @import "_tablet/shop-header-tablet.scss";
+    @import "_tablet/shop-goods-tablet.scss";
 }
 
 @media screen and (max-width: 767px) {
@@ -36,4 +40,6 @@
     @import "_mobile/technology-mobile.scss";
     @import "_mobile/aboutUs-mobile.scss";
     @import "_mobile/page-footer-mobile.scss";
+    @import "_mobile/shop-header-mobile.scss";
+    @import "_mobile/shop-goods-mobile.scss";
 }

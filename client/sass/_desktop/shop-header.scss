@@ -1,0 +1,35 @@
+.shop-header {
+    background: #65B330;
+}
+
+.shop-header__navigator {
+    max-width: 880px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.shop-header__arrow {
+    width: 80px;
+    height: 60px;
+    line-height: 60px;
+    position: absolute;
+    top: calc(50% - 30px);
+    left: 10px;
+    cursor: pointer;
+    font-size: 24px;
+    color: #fafafa;
+    border: 1px solid #fff;
+    border-left: none;
+    border-radius: 0 5px 5px 0;
+}
+
+.shop-header__navigator h1 {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 40px;
+    font-weight: lighter;
+    padding: 60px 0;
+    color: #fff;
+}

@@ -49,10 +49,8 @@
         width: 200%;
         & .about-us__info {
             opacity: 1;
-            transform: translateX(20px);
-            transition-duration: 0.3s;
+            transition-duration: 0.5s;
             transition-timing-function: ease;
-            transition-delay: 0.5s;
         }
     }
 }
@@ -68,10 +66,8 @@
         width: 200%;
         & .about-us__info {
             opacity: 1;
-            transform: translateX(20px);
-            transition-duration: 0.3s;
+            transition-duration: 0.5s;
             transition-timing-function: ease;
-            transition-delay: 0.5s;
         }
     }
 }
@@ -87,10 +83,8 @@
         width: 200%;
         & .about-us__info {
             opacity: 1;
-            transform: translateX(20px);
-            transition-duration: 0.3s;
+            transition-duration: 0.5s;
             transition-timing-function: ease;
-            transition-delay: 0.5s;
         }
     }
 }
@@ -99,6 +93,7 @@
     position: absolute;
     width: 250px;
     top: 100px;
+    left: 20px;
     opacity: 0;
 }
 

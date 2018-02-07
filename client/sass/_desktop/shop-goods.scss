@@ -1,0 +1,44 @@
+.shop-goods__wrapper {
+    background: pink;
+    width: 880px;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.shop-goods__pack {
+    width: 200px;
+    margin: 30px 10px;
+}
+
+.shop-goods__pack span {
+    display: block;
+    color: #222;
+    font-size: 20px;
+    font-weight: lighter;
+    padding-top: 5px;
+}
+
+.shop-goods__pack p {
+    color: #333;
+    font-size: 20px;
+    font-weight: lighter;
+    padding-top: 5px;
+}
+
+.shop-goods__notes {
+    width: 100%;
+    background: #252222;
+}
+
+.shop-goods__notes p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: lighter;
+    max-width: 880px;
+    width: 100%;
+    padding: 60px 0px;
+    text-align: center;
+    margin: 0 auto;
+}
