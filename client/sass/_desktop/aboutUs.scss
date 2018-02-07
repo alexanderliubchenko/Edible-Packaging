@@ -39,11 +39,11 @@
 }
 
 .about-us__person:nth-child(1) {
-    background: url('../../img/george-dark.jpg') no-repeat;
+    background: url('../img/george-dark.jpg') no-repeat;
     background-position: top center;
     background-size: cover;
     &:hover {
-        background: url('../../img/george.jpg') no-repeat;
+        background: url('../img/george.jpg') no-repeat;
         background-position: top center;
         background-size: cover;
         width: 200%;
@@ -56,11 +56,11 @@
 }
 
 .about-us__person:nth-child(2) {
-    background: url('../../img/daphni-dark.jpg') no-repeat;
+    background: url('../img/daphni-dark.jpg') no-repeat;
     background-position: top center;
     background-size: cover;
     &:hover {
-        background: url('../../img/daphni.jpg') no-repeat;
+        background: url('../img/daphni.jpg') no-repeat;
         background-position: top center;
         background-size: cover;
         width: 200%;
@@ -73,11 +73,11 @@
 }
 
 .about-us__person:nth-child(3) {
-    background: url('../../img/amanda-dark.jpg') no-repeat;
+    background: url('../img/amanda-dark.jpg') no-repeat;
     background-position: top center;
     background-size: cover;
     &:hover {
-        background: url('../../img/amanda.jpg') no-repeat;
+        background: url('../img/amanda.jpg') no-repeat;
         background-position: top center;
         background-size: cover;
         width: 200%;
